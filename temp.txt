@@ -14,6 +14,17 @@ GPIO.setmode(GPIO.BCM)
 # Ball Switch                     - GPIO 19
 # Tap Sensor (Vibration/SW-420)   - GPIO 16
 
+# === Pin Configuration ===
+DHT_PIN = 4
+TOUCH_PIN = 17
+TRACKING_PIN = 18
+TILT_PIN = 23
+LASER_PIN = 24
+BUTTON_PIN = 25
+IR_EMITTER_PIN = 26
+BALL_SWITCH_PIN = 19
+TAP_SENSOR_PIN = 16
+
 SENSOR_PIN = 17  # 👈 Change this to match your sensor pin (e.g., 23 for tilt switch)
 
 GPIO.setup(SENSOR_PIN, GPIO.IN)
